@@ -1,7 +1,7 @@
 # unione-smtp-example
 
 In PHP using PHPMailer
-```
+```php
 <?php
 require 'vendor/autoload.php';
 // Set up parameters
@@ -50,7 +50,7 @@ if ($mail->Send()) {
 ```
 
 In Ruby
-```
+```ruby
 #!/usr/bin/env ruby
 
 require 'mail'
