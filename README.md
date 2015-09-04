@@ -1,4 +1,8 @@
-# unione-smtp-example
+# UniOne SMTP example
+
+The easiest way to send via our SMTP is to set smtp-in.unisender.com:587 as transport relay using your login and password. Also, please remember, to enable SSL/TLS in connection properties.
+
+Or there are some examples in PHP/Ruby.
 
 In PHP using PHPMailer. See https://github.com/unisender-dev/unione-smtp-example/tree/master/resources folder for detailed information about html and substitutions.
 ```php
