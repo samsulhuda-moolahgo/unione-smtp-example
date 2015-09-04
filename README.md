@@ -36,7 +36,6 @@ $mail->AddEmbeddedImage('./resources/embedded-content.png', '123');// Add embedd
 // Single email sending
 $mail->AddAddress($to);
 /*/
-// PHPMailer requires To address, but if you use X-UO-RECIPIENT header, To address will be ignored by UniOne.
 $mail->AddAddress($to);
 $mail->AddAddress($to2);
 $mail->AddCustomHeader("X-UO-RECIPIENT", '{"email": "'.$to.'","substitutions": {"fname": "John","lname": "Dow"}}');
