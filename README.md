@@ -35,6 +35,7 @@ $mail->AddEmbeddedImage('./resources/embedded-content.png', '123');// Add embedd
 /* // Write two slashes at the beginning to uncomment single email sending and single slash to uncomment multiple addresses sending.
 // Single email sending
 $mail->AddAddress($to);
+$mail->AddAddress($to2);
 /*/
 // PHPMailer requires To address, but if you use X-UO-RECIPIENT header, To address will be ignored by UniOne.
 $mail->AddAddress($to);
