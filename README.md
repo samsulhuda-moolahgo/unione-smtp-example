@@ -1,6 +1,6 @@
 # unione-smtp-example
 
-In PHP using PHPMailer
+In PHP using PHPMailer. See https://github.com/unisender-dev/unione-smtp-example/tree/master/resources folder for detailed information about html and substitutions.
 ```php
 <?php
 require 'vendor/autoload.php';
